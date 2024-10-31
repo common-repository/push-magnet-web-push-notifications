@@ -1,0 +1,116 @@
+.push-magnet-container{
+    padding: 20px;
+    margin: 20px;
+}
+.push-magnet-card{
+    background-color: #fff;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.push-magnet-card-body, .push-magnet-card-footer{
+    padding: 10px 20px;
+}
+.push-magnet-card-body #line-chart{
+    width: 100%;
+    height: 250px;
+}
+.push-magnet-chart-container{
+    position: relative;
+    height: 250px;
+    width: calc(100% - 1px);
+}
+.push-magnet-card-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.push-magnet-card-grid .push-magnet-card{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.push-magnet-card-grid .push-magnet-card h6, .push-magnet-card-header h5{
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+}
+.push-magnet-card-grid .push-magnet-card-body div{
+    font-size: 2rem;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+.push-magnet-card-grid .push-magnet-card-body a{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.push-magnet-card-grid .push-magnet-card-body svg{
+    width: 12px;
+    height: 12px;
+    fill: #2271b1;
+}
+.push-magnet-card-header{
+    padding: 1rem;
+}
+.push-magnet-card-header h6{
+    font-size: 0.8rem;
+}
+.push-magnet-card-header h4{
+    font-size: 1rem;
+    margin: 0;
+}
+.push-magnet-padding-0{
+    padding: 0;   
+}
+.push-magnet-card-body table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.push-magnet-card-body table thead{
+    background-color: #f9eded;
+}
+.push-magnet-card-body table th, .push-magnet-card-body table td{
+    padding: 0.75rem;
+}
+.push-magnet-card-body table th{
+    text-align: left;
+}
+.push-magnet-container .progress {
+    height: 1rem;
+    background-color: #f9eded;
+    border-radius: 0.25rem;
+    display: flex;
+    overflow: hidden;
+}
+.push-magnet-container .progress .progress-bar{
+    background-color: #f00;
+    height: 100%;
+}
+.push-magnet-card-body p{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.push-magnet-card-body strong{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.push-magnet-card-body .push-magnet-textfield{
+    width: 100%;
+    font-size: 14px;
+}
+.push-magnet-card-body .push-magnet-textfield:focus{
+    border-color: #dc8f8f;
+    box-shadow: 0 0 0 0.2rem #f2caca;
+}
+.push-magnet-btn{
+    padding: 5px 16px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgb(190, 25, 25);
+    font-weight: 500;
+    font-size: 16px;
+}
